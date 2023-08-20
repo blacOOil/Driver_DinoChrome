@@ -10,10 +10,12 @@ public class Player : MonoBehaviour
     bool gamestarted = false;
     bool grounded = false;
     private Rigidbody2D rb;
+    private Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -26,6 +28,7 @@ public class Player : MonoBehaviour
                 Jump();
                 jump = true;
                 grounded = false;
+                anim.SetBool("Stoop", false);
             }
             else
             {
@@ -47,12 +50,17 @@ public class Player : MonoBehaviour
                 jump = false;
                 grounded = true;
                 Stoop();
+                anim.SetBool("Stoop", true);
             }
             else
             {
                 gamestarted = true;
                 
             }
+        } 
+        if (Input.GetKeyUp("s"))
+        {
+            anim.SetBool("Stoop", false);
         }
 
     }
