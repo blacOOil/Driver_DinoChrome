@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obtacle
+  - Players
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obtacle
   - Water
   - UI
   - 

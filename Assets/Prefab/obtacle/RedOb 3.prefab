@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7563117158697498918}
   - component: {fileID: 7859689409489034652}
   m_Layer: 3
-  m_Name: RedOb
+  m_Name: RedOb 3
   m_TagString: Obtacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -753750705, guid: 4d7faf34654e2a54b8ba6069ab4b8212, type: 3}
-  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+  m_Sprite: {fileID: 1378477149, guid: 4d7faf34654e2a54b8ba6069ab4b8212, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

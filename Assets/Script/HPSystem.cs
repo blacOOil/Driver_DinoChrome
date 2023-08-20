@@ -7,6 +7,7 @@ public class HPSystem : MonoBehaviour
 {
     
     public float Hp;
+    private float wait;
     public string SampleScene;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class HPSystem : MonoBehaviour
         if (other.CompareTag("Obtacle"))
         {
             Hp-= 1;
+            wait = 0f;
         }
         
     }
