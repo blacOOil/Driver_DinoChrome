@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0da657eda8dc7a940a390385b22e3fc2
+guid: a9ea7d2795bca7048809a826e5d5bef6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 207, y: 555, z: 167, w: 106}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -132,19 +132,19 @@ TextureImporter:
       name: Bird_0
       rect:
         serializedVersion: 2
-        x: 242
-        y: 598
+        x: 240
+        y: 596
         width: 165
         height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d6f81c104d6cd40941d0966ed5d367
-      internalID: 1177447644
+      spriteID: 79f4ffc9454f4a2448edb41c1a22cd11
+      internalID: 911278378
       vertices: []
       indices: 
       edges: []
@@ -153,14 +153,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bird_0: 1177447644
+      Bird_0: 911278378
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
