@@ -7,11 +7,13 @@ public class GameLoop : MonoBehaviour
 
     public float GameSpeed;
     private bool GameStart;
+    private bool codeExecuted;
     // Start is called before the first frame update
-  
+
     void Start()
     {
         GameStart = true;
+        codeExecuted = false;
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class GameLoop : MonoBehaviour
         {
             Time.timeScale = GameSpeed;
             //unfreeze
+
         }
         if (Input.GetKeyDown("space"))
         {

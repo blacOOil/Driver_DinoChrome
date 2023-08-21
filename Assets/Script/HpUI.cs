@@ -33,7 +33,7 @@ public class HpUI : MonoBehaviour
          CollisioCheck();
             Wait = 0f;
         }
-       
+      
         
       
     }

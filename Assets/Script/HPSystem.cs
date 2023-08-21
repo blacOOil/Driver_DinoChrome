@@ -21,8 +21,8 @@ public class HPSystem : MonoBehaviour
         
         if(Hp < 0)
         {
-            SceneManager.LoadScene(SampleScene);
-            
+             SceneManager.LoadScene(SampleScene);
+           
         }
     }
 
