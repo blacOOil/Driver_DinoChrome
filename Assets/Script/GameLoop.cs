@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameLoop : MonoBehaviour
 {
 
-    public float GameSpeed = 1f;
+    public float GameSpeed;
     private bool GameStart;
     // Start is called before the first frame update
   
@@ -19,7 +19,7 @@ public class GameLoop : MonoBehaviour
     {
         if (GameStart == true)
         {
-            GameSpeed = Time.timeScale;
+            
             Time.timeScale = 0;
           //freeze the game
           

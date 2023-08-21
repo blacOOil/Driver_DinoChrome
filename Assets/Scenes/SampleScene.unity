@@ -458,12 +458,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864705839}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3be13cdecacfee540b662905190bb0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameSpeed: 5
+  GameSpeed: 1
 --- !u!1 &1155286281
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +880,55 @@ RectTransform:
   m_AnchoredPosition: {x: -5.9, y: -2.71}
   m_SizeDelta: {x: 6.4, y: 3.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1554008732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554008734}
+  - component: {fileID: 1554008733}
+  m_Layer: 0
+  m_Name: "\u0E3ABirdsSpawner"
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1554008733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554008732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9042f5ddd470de41ade016fc06c20ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Castus:
+  - {fileID: 6687808956819783665, guid: 38b0030c1725f0a4c9d6ce526877c473, type: 3}
+  secondSpawn: 10
+  minTras: 10.65
+  maxTras: 14.42
+--- !u!4 &1554008734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554008732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.48, y: -2.08, z: -2.7936444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1792710967
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,7 +960,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Castus:
   - {fileID: 6501473977013856237, guid: 9814cf01461039d49bb03a69c50201e6, type: 3}
-  - {fileID: 6687808956819783665, guid: 38b0030c1725f0a4c9d6ce526877c473, type: 3}
   - {fileID: 6501473977013856237, guid: 5b56cf5a0f687334780c5f562c71f457, type: 3}
   - {fileID: 6501473977013856237, guid: 0ae422c4157187a4e8d27fac414fcc14, type: 3}
   - {fileID: 6501473977013856237, guid: 027054b9607650e47b9e1a9e278bbe91, type: 3}
