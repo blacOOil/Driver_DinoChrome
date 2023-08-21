@@ -7,7 +7,7 @@ using TMPro;
 public class HpUI : MonoBehaviour
 {
     public Collider2D Player ;
-    public Collider2D Obtacle;
+    public LayerMask obtascleMask;
     [Header("HealthParameters")]
     [SerializeField] public float Hpax;
     private float currentHp;
@@ -16,7 +16,7 @@ public class HpUI : MonoBehaviour
     [SerializeField] private TMP_Text HpText;
 
     private float Wait;
-    private float CheckInterval = 0.25f;
+    private float CheckInterval = 0.159f;
 
     private void Start()
     {
@@ -40,9 +40,9 @@ public class HpUI : MonoBehaviour
 
     private void CollisioCheck()
     {
-        if (Player.IsTouching(Obtacle))
+        if (Player.IsTouchingLayers(obtascleMask))
         {
-            TakeDamage(1f);
+           TakeDamage(1f);
         }
     }
     void UpdateHp()
